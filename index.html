@@ -7,17 +7,46 @@
     <title>Booki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
     <div class="main-container">
-        <header></header>
+        <header>
+            <div class="logo">
+                <a href="index.html" alt="Accueil du site Booki">
+                    <img id="logo" src="./assets/Logo.svg" alt="logo du site Booki">
+                </a>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li class="hebergements">
+                        <a href="#hebergements">Hébergements</a>
+                    </li>           
+                    <li class="activites">
+                        <a href="#activites">Activités</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <main>
+            <section class="recherche">
+                <div class="description">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre-ville ou en pleine nature</p>
+                </div>
+                <div class="formulaire-recherche">
+                    <form method="get" action="">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" name="localisation" placeholder="Marseille, France" />
+                        <input type="submit" value="Rechercher">                    
+                    </form>
+                </div>
+            </section>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
 
