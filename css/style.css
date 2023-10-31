@@ -1,3 +1,36 @@
+  /* Design System */
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+  
+  :root {
+      /* Colors */
+      --main-color: #0065FC;
+      --main-bg-color: #F2F2F2;
+      --filter-bg-color: #DEEBFF;
+      --white: #FFFFFF;
+      --black: #000000;
+      --blue-light: #DEEBFF;
+      --grey-tint2: #d9d9d9;
+
+      /* Text configuration */
+      
+      --text-font-weight: 700;
+      --filterText-font-weight: 700;        
+      --titleSection-font-weight: 700;
+      --titleCard-font-weight: 700;
+      --subtitle-font-weight: 400;        
+      --standard-font-weight: 400;
+
+      
+      --text-font-size: 18px;
+      --filterText-font-size: 17px;
+      --titleSection-font-size: 22px;
+      --titleCard-font-size: 16px;
+      --subtitle-font-size: 14px;
+      --standard-font-size: 16px;
+
+}
+
 /****GENERAL****/
 
 * {
